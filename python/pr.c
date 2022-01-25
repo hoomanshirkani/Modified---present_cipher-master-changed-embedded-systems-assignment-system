@@ -180,7 +180,7 @@ char* encrypt(char* plaintext, char* key){
         for (j=0; j<8; j++){
             stateBytes[j].nibble1 = Sbox(stateBytes[j].nibble1);
             stateBytes[j].nibble2 = Sbox(stateBytes[j].nibble2);
-            // printf(stateBytes[j]);
+            printf(stateBytes[j]);
         }
         //return the nibbles in a 64-bit integer format and perform the permutation defined above
         state = permute(fromBytesToLong(stateBytes));

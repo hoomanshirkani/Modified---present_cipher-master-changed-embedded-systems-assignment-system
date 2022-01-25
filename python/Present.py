@@ -21,7 +21,7 @@ def round_function(state, key):
         nib = (new_state >> x) & 0xF
         sb_nib = s_box[nib]
         state_nibs.append(sb_nib)
-    # print(state_nibs)
+    print(state_nibs)
 
     state_bits = []
     for y in state_nibs:
