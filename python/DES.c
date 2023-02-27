@@ -4,7 +4,7 @@
  * 
  * By: Daniel Huertas Gonzalez
  * Email: huertas.dani@gmail.com
- * Version: 0.1
+ * Version: 00.1
  * 
  * Based on the document FIPS PUB 46-3
  */
@@ -17,7 +17,7 @@
 #define L64_MASK    0x00000000ffffffff
 #define H64_MASK    0xffffffff00000000
 
-/* Initial Permutation Table */
+/* Initial Permutation  Table */
 static char IP[] = {
     58, 50, 42, 34, 26, 18, 10,  2, 
     60, 52, 44, 36, 28, 20, 12,  4, 
